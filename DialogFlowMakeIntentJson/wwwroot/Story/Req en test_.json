@@ -1,0 +1,20 @@
+{
+  "name": "Req en test_",
+  "auto": true,
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": "0",
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "test"
+          ]
+        }
+      ]
+    }
+  ],
+  "userSays": [
+  ]
+}

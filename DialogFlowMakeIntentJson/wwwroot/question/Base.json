@@ -1,0 +1,104 @@
+{
+  "id": "6c01d541-1691-42e7-abc6-10cb79566245",
+  "name": "Req En Ask Me Question",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "What's your name?",
+            
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "8847ffa1-31f5-4256-906e-da06ae47726l",
+      "data": [
+        {
+          "text": "Let's talk about something",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7c8f8dfc-0ad7-4a27-8dd1-d96f65ae7813",
+      "data": [
+        {
+          "text": "ask question",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dbb694e4-b93c-41fe-b199-ad8b2009565b",
+      "data": [
+        {
+          "text": "ask me",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3d351463-jof1-55c5-8eb2-d19c95b742f8",
+      "data": [
+        {
+          "text": "you ask me question",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6ac4ee1a-54vh-42be-562f-c2a8366de0c6",
+      "data": [
+        {
+          "text": "ask me question",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

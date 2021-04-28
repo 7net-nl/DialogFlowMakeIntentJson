@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form asp-action="Index" asp-controller="Ask" enctype="multipart/form-data" method="post">
+        <div class="form-group">
+            <label class="form-control">Input Lang</label>
+            <input name="InputLang" class="form-control" type="text" value="en" />
+            <textarea name="InputText" class="form-control" rows="8"></textarea>
+            <button type="submit" class="btn btn-success">Save</button>
+        </div>
+    </form>
+</div>
